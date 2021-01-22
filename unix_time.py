@@ -4,7 +4,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/unix_time/")
+@app.route("/")
 def get_time():
     return str(time.time())
 
